@@ -1,0 +1,12 @@
+@charset "UTF-8";
+/**ADFFaces_Skin_File / DO NOT REMOVE**/
+@namespace af "http://xmlns.oracle.com/adf/faces/rich";
+@namespace dvt "http://xmlns.oracle.com/dss/adf/faces";
+
+.ivi af|panelList {
+    list-style-type: none; 
+}
+
+.ivi af|panelList::item {
+    list-style-type: none; 
+}

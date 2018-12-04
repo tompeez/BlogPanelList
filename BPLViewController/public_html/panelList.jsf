@@ -1,0 +1,31 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!DOCTYPE html>
+<f:view xmlns:f="http://java.sun.com/jsf/core" xmlns:af="http://xmlns.oracle.com/adf/faces/rich">
+    <af:document title="panelList.jsf" id="d1">
+        <af:form id="f1">
+            <af:panelGridLayout id="pgl1">
+                <af:gridRow height="50px" id="gr1">
+                    <af:gridCell width="100%" halign="stretch" valign="stretch" id="gc1">
+                        <af:outputText value="PanelList with Bullet" id="ot1" inlineStyle="font-size:x-large;"/>
+                        <!-- Header -->
+                    </af:gridCell>
+                </af:gridRow>
+                <af:gridRow height="100%" id="gr2">
+                    <af:gridCell width="100%" halign="stretch" valign="stretch" id="gc2">
+                        <af:panelList rows="5" styleClass="ivi"> 
+                            <af:link text="link 1" id="l1" destination="http://www.oracle.com"
+                                     icon="/images/bullet.png"/>
+                            <af:link text="link 2" id="l2" destination="http://www.oracle.com"
+                                     icon="/images/bullet.png"/>
+                            <af:spacer width="10" height="10" id="s1"/>
+                            <af:link text="link 3" visible="false" id="l3" destination="http://www.oracle.com"
+                                     icon="/images/bullet.png"/>
+                            <af:link text="link 4" id="l4" destination="http://www.oracle.com"
+                                     icon="/images/bullet.png"/>
+                        </af:panelList>
+                    </af:gridCell>
+                </af:gridRow>
+            </af:panelGridLayout>
+        </af:form>
+    </af:document>
+</f:view>
